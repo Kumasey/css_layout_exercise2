@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('black-brick.jpg');
+}
+header{
+    padding: 10px;
+    background-color: black;
+    color: orange;
+}
+div{
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background: gray;
+    height: 550px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+}
+
+.main{
+    width: 600px;
+    height: 40px;
+    border-bottom: solid;
+    border-color: black;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.first{
+    display: flex;
+    background: green;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 20px;
+    width: 472px;
+    border-style: solid;
+    border-color: black;
+}
+.second{
+    /* background: lightcoral; */
+    margin-left: 10px;
+    margin-right: 16px;
+    justify-content: space-around;
+    height: 130px;
+    width: 130px;
+    border-style: solid;
+    border-color: black;
+    background-image: url('tree.jpg');
+    
+}
+
+.third{
+    /* background: rgb(21, 94, 54); */
+    margin: 0px 16px;
+    width: 130px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    background-image: url('tree.jpg');
+}
+
+.fourth{
+    /* background: orange; */
+    width: 130px;
+    margin: 0px 16px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    background-image: url('tree.jpg');
+}
+
+.fifth{
+    background: orange;
+    width: 130px;
+    margin: 0px 12px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+}
+
+.sixth{
+    background: rgb(97, 20, 67);
+    width: 130px;
+    margin: 0px 16px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+}
+
+.seventh{
+    background: rgb(89, 181, 209);
+    width: 130px;
+    margin: 0px 17px;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+}
